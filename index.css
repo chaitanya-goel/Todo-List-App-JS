@@ -74,7 +74,7 @@ ul li::before{
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url(./unchecked.png);
+    background-image: url(./Assets/unchecked.png);
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -86,7 +86,7 @@ ul li::before{
     text-shadow: 1px 1px 2px rgb(165, 163, 163);
 } */
 ul li.checked::before{
-    background-image: url(./checked.png);
+    background-image: url(./Assets/checked.png);
 }
 /* ul li span{
     position: absolute;
@@ -156,7 +156,7 @@ ul li {
     transition: all 0.3s ease-in-out;
 }
 ul li.checked {
-    color: #343434;
+    color: #2e2e2e;
     text-decoration: line-through;
     text-shadow: 1px 1px 2px rgb(165, 163, 163);
     animation: bounce 0.4s ease-in-out;
